@@ -1,0 +1,339 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@400;500&family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@500&family=Rubik&display=swap');
+
+
+/*.table-tag{
+background-color: white;
+border:1px solid black;
+padding-top:20px;
+}*/
+table,th,td{
+    border-collapse: collapse;
+    
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    margin-bottom: 50px;
+  
+    width:1450px;
+   /* height:10px;*/
+    color:#262626;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+    
+}
+th{
+    color: white;
+}
+
+table{
+    border-radius: 5px;
+    box-shadow:0.5px 0.5px 2px 1px rgb(87,87,87,0.594);
+}
+/*.left-th{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}*/
+
+tr{
+    border-bottom: 1px solid lightgrey;
+    height: 40px;
+}
+td{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.under{
+    text-decoration: underline;
+}
+.serial,td{
+    text-align: center;
+}
+
+.head{
+    color: #1877F2;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1px solid black;
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 25px;
+    position: relative;
+    top: 15px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width:15%;
+
+    
+
+}
+p{
+   display:flex;
+   justify-content:flex-start;
+   margin-bottom: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-size: x-large;
+
+}
+
+
+
+.top{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    
+    padding-bottom:20px;
+    
+
+}
+.main{
+    border:1px solid black;
+    background-color: white;
+   position: relative;
+   
+}
+
+/*.name{
+    position: relative;
+    top: 90px;
+}*/
+
+.box{
+    position: relative;
+    top: 58px;
+    right:10px;
+    height:70px;
+
+    
+    width: 50%;
+    display:flex;
+    direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+
+
+}
+/*.box-1{
+    background-color: white;
+    border:1px solid black;
+    width:30%;
+    border-radius:4px;
+    height: 50px;
+    
+}*/
+.name{
+    background-color:white;
+    border:1px solid black;
+    /* width:60%; */
+    border-radius: 5px ;
+    position: relative;
+    top:23px;
+    left: 40px;
+   
+    cursor: pointer;
+    height: 35px;
+    width:200px;
+    border-style: none;
+    outline: none;
+    box-shadow:0.5px 0.5px 2px 1px rgb(87,87,87,0.594);
+   
+}
+input[placeholder]{
+    padding-left: 30px;
+}
+.search-icon{
+    background-color: white;
+    border-radius: 1px solid black;
+    
+    width:20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+   top:24px;
+   bottom: 5px;
+   right:195px;
+   border-style: none;
+   height: 0px;
+}
+placeholder{
+    color:#4D4D4D;
+
+
+font-family: 'Rubik', sans-serif;
+}
+.row-1{
+    background-color: #1877F2;
+    color:#FFFFFF;
+    border-radius: 5px;
+    
+
+}
+/*.box-2{
+    background-color: white;
+    border:1px solid black;
+    width:30%;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.box-3{
+    background-color: white;
+    border:1px solid black;
+    width:30%;
+    border-radius:5px;
+    
+}*/
+.loc{
+    background-color: white;
+    position: relative;
+    top:20px;
+    left: 25px;
+    width:220px;
+    height:40px;
+    box-shadow: 0.5px 0.5px 2px 1px rgb(87,87,87,0.594);
+   
+   border-radius: 5px;
+   outline: none;
+   border-style: none;
+   cursor: pointer;
+}
+select{
+    padding-left: 30px;
+}
+
+.loc-icon{
+   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    right: 192px;
+    cursor: pointer;
+
+}
+
+
+.sort{
+
+    background-color: white;
+    position: relative;
+    top:20px;
+    
+    left: 20px;
+    height: 40px;
+   
+    width:200px;
+    
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow:0.5px 0.5px 2px 1px rgb(87,87,87,0.594);
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+}
+.sort-icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:33px;
+    right: 180px;
+   
+}
+button{
+    width:140px;
+    height:40px;
+    background-color: #1877F2;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 500;
+    border-style: none;
+    cursor: pointer;
+
+}
+.cross{
+    color: #FFFFFF;
+    position: relative;
+    top:4px;
+    right:5px;
+}
+.act-btn{
+    background-color: #34A853;
+}
+
+
+.btn-grp{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 35px;
+    cursor: pointer;
+    
+
+}
+
+
+.left-btn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #F3F7FF;
+    margin-left: 2px;
+    width:20px;
+    height:40px;
+    padding-right: 60px;
+    cursor: pointer;
+    box-shadow:0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+   
+}
+.right-btn{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    margin-left: 2px;
+    border-style: none;
+    background-color: #F3F7FF;
+    height: 40px;
+    width: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+    box-shadow:0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+}
+
+.center-btn{
+    background-color: #1877F2;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+ position: absolute;
+width: 40px;
+height: 40px;
+cursor: pointer;
+}
+
+.svg-1{
+
+    position: relative;
+    left:10px;
+    top:4px;
+
+}
+.svg-2{
+    position:relative;
+    right:20px;
+    top: 4px;
+}
+select{
+    -webkit-appearance:none;
+}
