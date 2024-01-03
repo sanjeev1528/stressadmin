@@ -1,0 +1,160 @@
+h1 {
+    text-align: center;
+    color: #2192FF;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40%;
+}
+
+.ads {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-decoration-line: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    
+
+}
+table tbody tr{
+    box-shadow: 0 -0.2px 0 0 grey;
+}
+
+td {
+    text-align: center;
+    padding-bottom: 1px;
+    font-family: 'Poppins';
+    font-style: normal;
+   
+
+}
+
+th {
+    padding: 6px;
+    background-color: #2192FF;
+    color: white;
+    width: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+
+.strike {
+    text-decoration: line-through;
+}
+
+.inactivate {
+    width: 90px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    background: #939393;
+    border-radius: 5px;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    
+    
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.btn {
+    background-color: #ddd;
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+.first {
+    background-color: #2192FF;
+    width: 50px;
+    cursor: pointer;
+}
+
+.last {
+    background-color: #ddd;
+    width: 50px;
+    cursor: pointer;
+}
+
+.remove {
+    background: #FF4C4C;
+    width: 80px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 5px;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    
+}
+
+
+.submit-btn {
+    justify-content: end;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+
+button {
+    width: 220px;
+    height: 40px;
+    top: 186px;
+    left: 1458px;
+    border-bottom: 5px;
+    color: white;
+    background: #2192FF;
+    border-radius: 5px;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    
+}
+.plan{
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+tr {
+    width: 45%;
+    bottom: 100%;
+
+}
