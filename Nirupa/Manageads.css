@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@200;300;400&display=swap');
+table, th, td {
+    border-collapse: collapse;
+    padding:10px;
+
+}
+.table{
+    width:100%;
+    text-align:center;
+    padding-left: 20;
+    position:center;
+    font-size:15px;
+    
+}
+th{
+    background-color:#2192FF;
+    color:white;
+}
+tr{
+    box-shadow:0 -0.2px 0 0 grey;
+}
+.top{
+    display:flex;
+    direction:row;
+    justify-content:space-between;
+    width:100%;
+    margin:auto;
+    padding-left:42%;
+    padding-top:15px;
+}
+h3{
+    color:#2192FF;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    size:24px;
+
+}
+.top svg{
+    padding-top:15px;
+    padding-right:40.5%;
+        
+}
+h3:hover{
+    text-decoration: underline;
+}
+.line{
+    text-decoration:underline;
+    
+}
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    padding-right: 50px;
+    box-shadow: 2px;
+    background-color: white;
+}
+
+.btn {
+    background-color: #f3f5f7;
+    width: 40px;
+    padding-bottom:1px;
+    box-shadow: 2px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-style: none;
+
+}
+.createads{
+    height:35px;
+    position:relative;
+    top:20px;
+    right:640px;
+    width:180px;
+    background-color: #2192FF;
+    border-radius:5px;
+    border-style:none;
+    color:white;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    size:24px;
+
+
+}
+
+
+
+.first {
+    background-color: #2192FF;
+    width: 40px;
+    color:white;
+    border-style:10px;
+    border-style:none;
+    
+}
+
+.last {
+    background-color:#f3f5f7;
+    width: 40px;
+    padding-bottom: 1px;
+    box-shadow:2px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    height:50px;
+}
+.container{
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+td{
+    background-color: white;
+}
+body{
+    background-color:#EFEFEF;
+
+}
