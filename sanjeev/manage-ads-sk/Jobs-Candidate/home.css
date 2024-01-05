@@ -1,0 +1,54 @@
+.view{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 100px;
+}
+
+.top{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 30px;
+}
+
+.head{
+    background-color: white;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ham-icon , .sort-icon{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.search-icon, .change-icon{
+    margin-right:10px
+}
+
+.orange-head{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: white;
+    height: 20px;
+    background-color: #FD841F;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-found-text{
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.left-orange{
+    display: flex;
+}
+
