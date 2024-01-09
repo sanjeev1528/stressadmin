@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@200;300;400;500&family=Raleway:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@200;300;400;500;700&family=Raleway:ital,wght@0,700;1,700&display=swap');
+body{
+    background-color:whitesmoke;
+    
+}
+.view1{
+    background-color:white;
+    width: 400px;                       
+}
+
+.top1{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 30px;
+}
+
+.head1{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-icon, .change-icon{
+    margin-right:10px
+}
+
+.orange-head{
+    padding-top: 7px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: white;
+    background-color: #FD841F;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+
+.job-alert-text{
+    margin:0px;
+    color:white;
+    padding-left:25px;
+    top:2px;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    position:absolute;
+    font-size:18px;
+}
+
+.left-orange{
+    display: flex;
+    padding-left:10px;
+}
+
+p{
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color:#FD841F;
+    font-weight:700;
+    font-size:19px;
+    display:flex;
+    justify-content:center;
+    padding-right:60px;
+}
+.content{
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size:15px;
+    padding-left:50px;
+}
+.box1{
+    width:80%;
+    height:40px;
+    border-radius:5px;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
+    border-style:none;
+}
+.btn1{
+    display:flex;
+    justify-content:center;
+    padding-right:70px;
+    padding-top:20px
+
+}
+.setalert{
+    width:70%;
+    border-radius:5px;
+    height:40px;
+    background-color: #0A2647;
+    color:white;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    margin-bottom:30px;
+    border-style:none;
+}
+label{
+    margin-left:10px;
+}
+input,select{
+    margin-bottom:10px;
+}
+.box2{
+    width:79%;
+    height:40px;
+    border-radius:5px;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
+    border-style:none;
+    outline:none;
+}
