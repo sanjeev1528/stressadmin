@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .secc{
     width: 99%;
     padding-top:5px;
     margin: auto;
-   
 }
 
 .head{
-   
     width: 99%;
-    height: 40px;
     margin:auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -24,60 +21,8 @@
     color: #2192FF;
 }
 
-.search-div{
-    display: flex;
-    background-color: white;
-    box-shadow: 0 0 1px 1px rgba(204, 204, 204, 0.562);
-  align-items: center;
-  padding:5px 2px 5px 2px;
-  margin-bottom: 5px;
- 
-    width: 15%;
-}
-.search-txt, .date-txt{
-    font-family: 'poppins',sans-serif;
-    font-size: small;
-    margin-left: 5px;
-    margin-top: 5px;
-    
-}
-
-.slash{
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 24px;
-    font-weight:bolder;
-}
 
 
-
-p{
-    padding: 0;
-    margin: 0;
-}
-.search-svg{
-    margin-left: 5px; 
-    padding-top: 5px;
-}
-
-
-.sort-div{
-    width: 10%;
-    display: flex;
-    background-color: white;
-    box-shadow: 0 0 1px 1px rgba(204, 204, 204, 0.562);
-  align-items: center;
-  margin-bottom: 5px;
-  padding:7px 2px 7px 2px;
-
-}
-.sort-txt{
-    font-family: 'heebo',sans-serif;
-    font-weight: 400;
-}
-.sort-txt,.sort-svg{
-    margin-left: 5px;
-}
 
 .main1{
     width: 100%;
@@ -96,8 +41,7 @@ table,th,td{
 
 tbody tr{
     height: 37px;
-   font-family: 'poppins',sans-serif;
-   font-weight: 500;
+    font-family: 'poppins', sans-serif;
   text-transform: capitalize;
    border-bottom: 0.5px solid #4d4d4d30;
     border-radius: 10px;
@@ -109,7 +53,7 @@ tbody tr{
 th{
     padding:10px;
     font-family: 'poppins', sans-serif;
-   
+    font-weight: 500;
     text-align: left;
     padding-left: 10px;
     color: white;
@@ -118,11 +62,10 @@ th{
 }
 table tbody td{
     background-color:white; 
-   
     width: fit-content;
     text-align: left;
     height: 30px;
-    font-weight: 500;
+    font-weight: 100;
     padding-left:10px;
 }
 
@@ -150,35 +93,12 @@ thead{
     color: white;
    
 }
-.btn-spl{
-    width: 80px;
-    padding: 4px 0 4px 0;
-    margin-right: 2px;
-    border-style: none;
-    border-radius: 4px;
-    color: white;
-    background-color: white;
-    box-shadow: 0 0 1px 1px rgba(211, 210, 210, 0.527);
-}
 .red{
     background-color: #FF4C4C;
 }
 
-.remove-btn {
-    color: #FF4C4C;
-}
-.remove-svg{
-    color: #FF4C4C;
-}
-
 .green{
     background-color: #48D391;
-}
-
-.red-btn{
-    width: 82%;
-    display: flex;
-    justify-content: end;
 }
 
 
