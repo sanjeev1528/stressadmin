@@ -6,14 +6,11 @@
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-
 .main{
     background-color: #EFEFEF;
-    height:900px;
-    margin:auto;
-
+    max-width: 100%;
+    height: 800px;
 }
-
 
 
 .head{
@@ -26,12 +23,11 @@
 p{
     color:#2192FF;
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight:500;
-    
+    font-size: 25px;
 }
 .sub-btn{
     background-color: #48D391;
+    margin-top: 20px;
     font-weight: 700;
     padding: 10px 50px 10px 50px ;
     border-radius:3px;
@@ -42,34 +38,42 @@ p{
     margin-left: 25px;
     
 }
-select{
-    -webkit-appearance:none;
-}
+
 
 
 .white-box{
-    width:80%;
-    background-color:white;
-    margin:auto;
+    width:100%;
+    height:600px;
+    background-color: white;
+    display: flex;
+   
 }
 
 .form-container{
     background-color:white;
-    width:50%;
-    height:650px;
+    width:60%;
     margin: auto;
+    height: 600px;
     justify-content: center;
     font-family: Poppins;
+
+    
+    
 }
 .row-container{
-    padding-top: 15px;
+  padding-top: 15px;
     margin-bottom: 0px;
-   
+
+   /* margin-bottom: 30px;*/
 }
 
+.input-div{
+    display: flex;
+    justify-content: end;
 
-.box1{
-    width:99%;
+}
+.box{
+    width:70%;
     height: 40px;
     background-color: #FAFAFA;
     margin-bottom: 10px;
@@ -82,58 +86,69 @@ select{
 }
 
 
-::placeholder,select{   
+.choose-div{
+    display: flex;
+    justify-content: left;
+
+    
+
+
+
+ 
+}
+
+::placeholder,select{
+    
     font-family: poppins;
     color:#939393;
     padding-left: 10px;
+
+
 }
 
 option{
     color: black;
 }
 
+.gif{
+   
+    margin-left: 22px;
+    padding-left:120px;
+    
+}
 
+
+#file-input{
+    display:none;
+}
+input{
+    padding-left: 10px;
+}
 
 .submit{
      width:100%;
      display: flex;
      justify-content: center;
-     padding-left: 55px;
+     padding-left: 85px;
 
 }
-
-.abc{
-    padding-right: 30px;
-}
-.pop{
-   margin:auto;
-   width:60%;
-}
-.pop-back{
-    background-color: #FFFFFF;
-    width:100%;
-    border-radius:5px;
-    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
-    border-style:none;
-    height:40px;
-}
-.pop-sub{
-    background-color:#48D391;
-    width:100%;
-    border-radius:5px;
-    box-shadow:25%;
-    border-style:none;
-    height:40px;
-}
-.title{
-    color:#2192FF;
-    padding-left:35%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight:500;
+#file-input-label{
+    border:2px solid #48D391;
+    
+    padding: 10px 40px 10px 40px ;
+    border-radius:3px;
+    cursor: pointer;
+    margin-left: 190px;
+   
+    color: #48D391;
+  
+    box-shadow: 1px 1px 4px 1px rgb(65, 65, 65);
+    font-weight: 500;
+    
+    
     
 }
-
-.row-n{
-    padding-top:10px;
+sub{
+    padding-top: 40px;
+    padding-left: 5PX;
 }

@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
-.head{
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap');
+.secc{
+    width: 99%;
+    padding-top:5px;
+    margin: auto;
+}
+.head1{
     width: 100%;
     height: 50px;
     display: flex;
@@ -10,35 +16,41 @@
    
 
 }
-.head-text{
+.head-text1{
     font-family: 'Poppins', sans-serif;
     color: #1877F2;
     user-select: none;
+    padding-top: 20px;
     font-size: 18px;
    
 }
 .search-sort-div{
-    align-items: center;
+   align-items: center;
     width: 35%;
-    position: relative;
   display: flex;
   flex-direction: row;
+ margin-top: 5px;
+ 
   justify-content: space-around;
   
 }
 .select-div{
-    height: 34px;
-    width: 45%;
+    height: 32px;
+    width: 200px;
+    outline: none;
+    font-size: medium;
+    font-family: heebo,sans-serif;
 }
 
 .input-sort{
    height:32px;
-    width: 45%;
-    margin-right: 5px;
+  
+  width: 200px;
+  outline: none;
     
 }
 
-.main{
+.main1{
     width: 100%;
 }
 
@@ -54,7 +66,7 @@ table,th,td{
 }
 
 tbody tr{
-    height: 40px;
+    height: 35px;
     font-family: poppins, sans-serif;
 
    border-bottom: 0.5px solid #4d4d4d30;
@@ -67,7 +79,7 @@ tbody tr{
 th{
     padding:10px;
     font-family: poppins, sans-serif;
-    font-weight: 200;
+    font-weight: 5s00;
     text-align: left;
     padding-left: 10px;
     color: white;
@@ -117,13 +129,18 @@ thead{
 
 }
 
+.download-btn:hover{
+    box-shadow:0.5px 0.5px 2px 1px rgba(72, 72, 72, 0.237);
+}
 .download-btn{
+    cursor: pointer;
     border: none;
     border-radius: 5px;
   background-color: #E8F2FE;
   color: #1877F2;
   text-transform: capitalize;
   font-family: poppins, sans-serif;
+
   padding:2px 15px 2px 15px;
  margin-left: 10px;
 }
@@ -132,26 +149,25 @@ thead{
     justify-content: center;
 }
 
-.btn:hover{
+.btn-1:hover{
     box-shadow:0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
 }
-.btn{
+.btn-1{
     color:white;
+    cursor: pointer;
     text-transform: capitalize;
     font-family: poppins,sans-serif;
-    padding: 5px;
+    padding:2px 15px 2px 15px;
     background-color: #1877F2;
     border-style: none;
     border-radius: 4px;
     align-items: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    width: 70%;
+
 }
 
 .underline{
     text-decoration: underline;
+    
 }
 
 .select-div{
@@ -161,11 +177,24 @@ thead{
  
       
 }
-
+.first-field{
+    position: relative;
+}
+.second-field{
+    position: relative;
+}
 .search-icon{
     position: absolute;
+    left:5px
    
-    left:12px;
+}
+.sort-icon{
+   
+    position:absolute;
+    
+    left:5px
+   
+    
 }
 
 input::placeholder, .search-icon{
@@ -178,14 +207,7 @@ input[type="text"], .select-div{
     box-shadow: 0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
 }
 
-.sort-icon{
-   
-    position:absolute;
-    top:15px;
-    right: 174px;
-    
-    
-}
+
 
 .last-row{
    
@@ -240,3 +262,70 @@ cursor: pointer;
 }
 
 
+.pop{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+  
+}
+
+
+.flu{
+    margin: 0;
+    padding: 0 5px 0 5px;
+}
+
+.eng-flu, .tamil-flu{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.flu-icon{
+    margin-top: 3px;
+}
+
+.lang{
+    margin: 0;
+}
+.pop-head{
+    font-family: heebo,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.pop-ans{
+    font-family: heebo , sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.row-sk{
+    padding-bottom: 10px;
+}
+
+a{
+    cursor: pointer;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.pop-btn-div{
+    width:100%;
+    padding-top: 5px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-btn{
+    padding: 2px 30px 2px 30px ;
+    border-style: none;
+    text-transform: capitalize;
+    background-color: #1877F2;
+    font-family: poppins , sans-serif;
+    color: white;
+}
