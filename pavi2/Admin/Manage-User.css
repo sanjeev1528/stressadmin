@@ -14,62 +14,54 @@ table,
 th,
 td {
   border-collapse: collapse;
-
   padding-left: 50px;
-  margin-right: auto;
-  margin-left: auto;
-
   margin-bottom: 50px;
-
-  width: 1450px;
-  /* height:10px;*/
   color: #262626;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+
+  
+
+}
+table{
+  width:100%;
 }
 th {
   color: white;
 }
 
-table {
-  border-radius: 5px;
-  box-shadow: 0.5px 0.5px 2px 1px rgb(87, 87, 87, 0.594);
-}
+
+
 /*.left-th{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-}*/
-
-tr {
-  border-bottom: 1px solid lightgrey;
-  height: 40px;
-}
+    */
+tr{
+      box-shadow:0 -0.2px 0 0 grey;
+      height:50px;
+  }
 td {
+  
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .under {
   text-decoration: underline;
 }
-.serial,
-td {
-  text-align: center;
-}
+
 
 .head1{
   color: #1877f2;
-  margin-right: auto;
-  margin-left: auto;
-  border-radius: 1px solid black;
-  background-color: white;
-  margin-top: 40px;
-  margin-left: 25px;
-  position: relative ;
-  top: 15px;
+  
+  
+ 
 
+  
+
+  
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  width: 15%;
+  width: 25%;
 }
 p {
   display: flex;
@@ -82,13 +74,16 @@ p {
 .up{
   display: flex;
   direction: row;
-  justify-content: center;
-
-  padding-bottom: 20px;
-}
-.main1{
- 
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0 10px 0;
   
+
+}
+.headtext{
+  margin: 0;
+  padding: 0;
 }
 
 /*.name{
@@ -97,16 +92,15 @@ p {
 }*/
 
 .abc{
-  position: relative;
-  top: 40px;
-  right: 10px;
-  height: 70px;
 
+ 
   width: 50%;
   display: flex;
   direction: row;
-  justify-content: space-around;
-  padding-right: 10px;
+  
+  justify-content: space-between;
+  align-items: center;
+  
 }
 /*.box-1{
     background-color: white;
@@ -121,23 +115,18 @@ p {
   border: 1px solid black;
   /* width:60%; */
   border-radius: 5px;
-  position: relative;
-  top: 23px;
-
   cursor: pointer;
-  height: 37px;
-  width: 220px;
+  height: 40px;
+  width: 100%;
   border-style: none;
   outline: none;
+  padding-left: 30px;
   box-shadow: 0.5px 0.5px 2px 1px rgb(87, 87, 87, 0.594);
 }
 p{
   user-select: none;
 }
-input {
-  
-  padding-left: 30px;
-}
+
 .search-icon {
   background-color: white;
   border-radius: 1px solid black;
@@ -146,13 +135,12 @@ input {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 28px;
-  bottom: 5px;
-  left: 5px;
+  top:7px;
+  left:5px;
   border-style: none;
   height: 0px;
 }
-placeholder {
+::placeholder {
   color: #4d4d4d;
 
   font-family: "Rubik", sans-serif;
@@ -179,44 +167,39 @@ placeholder {
 }*/
 .loc {
   background-color: white;
-  position: relative;
-  top: 20px;
-  left: 10px;
-  width: 220px;
-  height: 40px;
+  
+ 
+  width: 100%;
+  height: 41px;
   box-shadow: 0.5px 0.5px 2px 1px rgb(87, 87, 87, 0.594);
 
   border-radius: 5px;
   outline: none;
   border-style: none;
   cursor: pointer;
-  
+ padding-left: 30px;
   margin-top: 2px;
 }
-select {
-  padding-left: 30px;
-  
-}
+
 
 .loc-icon {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 35px;
-  left: 20px;
+  top:15px;
+  left:10px;
+  
+  
   cursor: pointer;
 }
 
 .sort {
   background-color: white;
-  position: relative;
-  top: 20px;
 
-  left: 10px;
   height: 40px;
 
-  width: 200px;
-
+  width:100%;
+padding-left: 30px;
   font-family: "Heebo", sans-serif;
   font-weight: 600;
   cursor: pointer;
@@ -231,19 +214,19 @@ select {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 35px;
-  right: 182px;
+  top:15px;
+  left:10px;
 }
 button {
-  width: 140px;
-  height: 40px;
+  
   background-color: #1877f2;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
-  border-radius: 5px;
+  border-radius: 5px!important;
   font-weight: 500;
   border-style: none;
   cursor: pointer;
+  padding:5px 10px 5px 10px;
 }
 .cross {
   color: #ffffff;
@@ -253,6 +236,7 @@ button {
 }
 .act-btn {
   background-color: #34a853;
+  width:120px;
 }
 
 .btn-grp {
@@ -314,13 +298,16 @@ select {
 }
 .single-field {
   position: relative;
+  width:30%;
 }
 .second-field{
   position:  relative;
-  margin-right: 10px;
+  
+  width:30%;
 }
 .third-field{
   position: relative;
+  width:30%;
 }
 button:hover{
   box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
