@@ -320,8 +320,8 @@ td{
   cursor: pointer;
 }
 
-.box{
-    border-raadius:1px solid black;
+.box1{
+    border-radius:1px solid black;
     background-color: bisque;
 
 }
@@ -331,10 +331,3 @@ td{
 
 }
 
-
-.modal-body{
-    
-}
-input{
-   
-}
