@@ -12,12 +12,12 @@
     color: #389AE0;
     font-family: 'Barlow', sans-serif;
     font-size: 35px;
-    padding-left: 24.5%;
+    padding-left: 23%;
     padding-top: 5%;
 }
 
 .black {
-    padding-left: 24.5%;
+    padding-left: 23%;
     font-family: 'Barlow', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -39,7 +39,7 @@
 }
 
 .form-container {
-    width: 50%;
+    max-width:800px;
     margin: auto;
     justify-content: center;
     font-family: 'Barlow', sans-serif;
@@ -73,7 +73,7 @@
 }
 
 .forgot {
-    padding-left: 80.7%;
+    text-align:end;
     padding-top: 10px;
 }
 
