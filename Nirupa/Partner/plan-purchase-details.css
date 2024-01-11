@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+
+.table,th,tr{
+    border-collapse:collapse;
+    
+}
+th{
+    background-color:#2192FF;
+    color:white;
+}
+tr{
+    box-shadow:0 -0.2px 0 0 grey;
+}
+.table{
+    width: 90%;
+    height: 700px;
+    top: 240px;
+    left: 350px;
+    border-radius: 5px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    margin-left:70px;
+}
+.title{
+    color: #2192FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+}
+.content{
+    text-decoration:underline;
+}
+.btn-grp {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .left-btn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f7ff;
+    margin-left: 2px;
+    width: 20px;
+    height: 40px;
+    padding-right: 60px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+    border-style:none;
+  }
+  .right-btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    margin-left: 2px;
+    border-style: none;
+    background-color: #f3f7ff;
+    height: 40px;
+    width: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+  }
+  
+  .center-btn {
+    background-color: #1877f2;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .svg-1 {
+    position: relative;
+    left: 10px;
+    top: 4px;
+  }
+  .svg-2 {
+    position: relative;
+    right: 20px;
+    top: 4px;
+  }
+  
+  button:hover{
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
+  }
+  
+  .table{
+    background-color:white;
+  }
+  body{
+    background-color: #EFEFEF;
+
+  }

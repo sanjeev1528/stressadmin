@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 table, th, td {
     border-collapse: collapse;
-    padding:10px;
-    
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+
     
 }
-.table{
+.table1{
     width:100%;
     text-align:center;
     padding-left: 20;
@@ -25,7 +29,7 @@ tr{
     text-decoration:underline;
     
 }
-.btn-group {
+.bn-group {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,7 +41,7 @@ tr{
     
 }
 
-.btn {
+.bn {
     background-color: #f3f5f7;
     width: 40px;
     padding-bottom:1px;
@@ -47,7 +51,12 @@ tr{
     border-style: none;
 
 }
-
+.topic{
+    color:#2192FF;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
 
 
 .first {
@@ -69,15 +78,16 @@ tr{
     border-style: none;
     height:50px;
 }
-.container{
+.abc{
     font-family: 'Gugi', sans-serif;
     font-family: 'Poppins', sans-serif;
-    
+    margin:auto;
+    width:99%;
 
 }
 .action{
     background-color:#1877F2;
-    width:100px;
+    width:110px;
     position:relative;
     left:10px;
     border-radius: 5px;
@@ -85,14 +95,20 @@ tr{
     text-align:center;
     color:white;
     border-style:none;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
 }
 .icon{
-    padding-top:6px;
+    position:absolute;
+    left:3px;
+    top:9px;
+    
     
 }
 .activate{
     background-color:#34A853;
-    width:100px;
+    width:110px;
     position:relative;
     left:10px;
     border-radius: 5px;
@@ -100,67 +116,73 @@ tr{
     text-align:center;
     color:white;
     border-style:none;
-}
-h3{
-    color:#2192FF;
     font-family: 'Gugi', sans-serif;
     font-family: 'Poppins', sans-serif;
-    size:24px;
-    padding-right:57%;
-    padding-top:30px;
+    
 }
 
+p{
+    font-family: 'Poppins', sans-serif;
+    padding-top:40px;
+    color:#1877F2; 
+    font-weight:500;
+    font-size:20px;  
+}
 
 
 .name{
-    height:50px;
-    width:250px;
+    height:40px;
+    width:200px;
+    border-radius:5px;
+    outline:none;
+    border-style:none;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
     
-    border-radius:3px;
-    box-shadow:0 -0.2px 0 0 grey;
-    margin-right:10px;
 
 }
 .loc{
-    height:50px;
-    width:500px;
-    
-    box-shadow:0 -0.2px 0 0 grey;
+    height:42px;
+    width:200px;
+    border-radius:5px;
+    outline:none;
+    border-style:none;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
+
 }
-.sort{
-    height:55px;
-    width:60%;
-    border-radius:3px;
-    box-shadow:0 -0.2px 0 0 grey;
-    margin-left:250px;
-    position: relative;
-    right: 10px;
-    padding-right: 50px;
+.sort1{
+    height:42px;
+    width:200px;
+    border-radius:5px;
+    outline:none;
+    border-style:none;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
+   
 }
 
-.head{
+.head1{
     display:flex;
     flex-direction:row;
-    justify-content: flex-end;
-right:0;
-width:54%;
-background-color:white;
-    position:relative;
-    left:700px;
-    top:-65px;
-   
-    align-items:center;
-    padding-right:50px; 
+    position:absolute;
+    width:670px;
+    justify-content:space-between;
+    top:-20px;
+    right:8px;
+    padding-top:5px;
+    height:60px;
+    margin-top:40px;
+    font-size:14px;
+
 }
 .table ,tr{
     padding-top:10px;
 }
 
 .green{
-    padding-right:10px;
-    padding-top:6px;
+    position:absolute;
+    left:5px;
+    top:9px;
 }
-.sub{
+.sub1{
     background-color:white;
     
 }
@@ -171,24 +193,27 @@ body{
 .label{
     text-decoration:underline;
 }
+.single-field{
+    position:relative;
+}
 .search-icon{
-  display:flex;  
-  position:relative;
-  left:27px;
-
- 
+    position:absolute;
+    top:8px;
+    left:3px;
+  
     
 }
 .loc-icon{
-
-
-  position:relative;
-  left:23px;
-  right:
+    position:absolute;
+    top:15px;
+    margin-left:2px;
+  
 }
 .sort-icon{
     position:absolute;
-    right:95px;
+    top:18px;
+    margin-left:5px;
+    
     
 }
 input[type="text"]{
@@ -197,7 +222,8 @@ input[type="text"]{
 select{
     padding-left:30px;
     -webkit-appearance:none;
+    outline:none;
 }
-.top{
-   height:70px;
+.top1{
+   display: flex;
 }

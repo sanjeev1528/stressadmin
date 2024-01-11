@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@200;300;400&display=swap');
+table, th, td {
+    border-collapse: collapse;
+    padding:10px;
+
+}
+.table{
+    width:100%;
+    text-align:center;
+   
+    font-size:15px;
+    
+}
+th{
+    background-color:#2192FF;
+    color:white;
+}
+tr{
+    box-shadow:0 -0.2px 0 0 grey;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    margin:auto;
+}
+h3{
+    color:#2192FF;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    size:24px;
+
+}
+
+h3:hover{
+    text-decoration: underline;
+}
+.line{
+    text-decoration:underline;
+    
+}
+
+.createads{
+    height:35px;
+    width:180px;
+    background-color: #2192FF;
+    border-radius:5px;
+    border-style:none;
+    color:white;
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    size:28px;
+    font-weight:700;
+}
+
+.btn-grp {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 35px;
+    cursor: pointer;
+  }
+  
+  .left-btn {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f7ff;
+    margin-left: 2px;
+    width: 20px;
+    height: 40px;
+    padding-right: 60px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+    border-style:none;
+  }
+  .right-btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    margin-left: 2px;
+    border-style: none;
+    background-color: #f3f7ff;
+    height: 40px;
+    width: 20px;
+    padding-left: 50px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+  }
+  
+  .center-btn {
+    background-color: #1877f2;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .svg-1 {
+    position: relative;
+    left: 10px;
+    top: 4px;
+  }
+  .svg-2 {
+    position: relative;
+    right: 20px;
+    top: 4px;
+  }
+  
+  button:hover{
+    box-shadow: 0.5px 0.5px 2px 1px rgba(128, 128, 128, 0.338);
+  }
+
+
+.container{
+    font-family: 'Gugi', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+td{
+    background-color: white;
+}
+body{
+    background-color:#EFEFEF;
+
+}

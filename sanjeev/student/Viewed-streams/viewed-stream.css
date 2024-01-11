@@ -118,10 +118,11 @@ li{
 .srm-div{
   width: 94%;
   margin: auto;
-  height: 100px;
+
   margin-top: 10px;
   box-shadow:0 0.2px 0 0 grey;
-  padding-bottom: 5px;
+  
+ 
  
 }
 
@@ -164,6 +165,7 @@ li{
 .srm-img{
     width: 96%;
     margin: auto;
+    height: 92%;
     object-fit: fill;
    
 }
@@ -175,10 +177,18 @@ li{
 .srm-btm{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 5px;
     align-items: center;
 }
 
 ::-webkit-scrollbar{
     width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track{
+    
+    background-color: rgba(162, 161, 161, 0.685);
+}
+::-webkit-scrollbar-thumb{
+    background-color:#56BBF1;
 }
