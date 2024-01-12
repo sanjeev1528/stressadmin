@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: #2192FF;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+row-container{
+    width:100%;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+label{
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:small;
+    margin-top: 10px;
+}

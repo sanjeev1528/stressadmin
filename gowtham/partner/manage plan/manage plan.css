@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.main {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 1px rgba(87, 87, 87, 0.594);
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+
+}
+
+h1 {
+    text-align: center;
+    color: #2192FF;
+    font-style: normal;
+    font-size: 20px;
+    font-family: Poppins;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+tbody tr {
+    height: 40px;
+    font-family: poppins, sans-serif;
+
+    border-bottom: 0.5px solid #4d4d4d30;
+    border-radius: 10px;
+
+
+}
+
+
+th {
+    padding: 10px;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    text-align: left;
+    padding-left: 10px;
+    color: white;
+    user-select: none;
+
+}
+
+table tbody td {
+    background-color: white;
+    width: fit-content;
+    text-align: left;
+    height: 30px;
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+
+.left-th {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right-th {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+thead {
+    background-color: #1877F2;
+    border-radius: 5px;
+}
+.underline {
+    text-decoration: underline;
+}
+.last-row {
+    text-align: center;
+}
+
+.btn-grp {
+    margin-top: 5px;
+    display: flex;
+   padding-left: 630px;
+    position: relative;
+    height: 35px;
+
+
+}
+
+.left-btn {
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+    background-color: #F3F7FF;
+}
+
+.right-btn {
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+    background-color: #F3F7FF;
+
+}
+
+.center-btn {
+    background-color: #1877F2;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    width: 40px;
+    height: 32px;
+    cursor: pointer;
+}

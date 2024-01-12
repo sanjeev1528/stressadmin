@@ -1,0 +1,83 @@
+.top{
+    
+width: 100%;
+height: 60px;
+    display: flex;
+justify-content: space-between;
+    background: #56BBF1;
+}
+.edu{
+width: 100px;
+height: 40px;
+background: linear-gradient(91deg, #FFF 0.76%, rgba(97, 97, 97, 0.00) 96.29%);
+border-radius: 300px;
+border-style: none;
+
+}
+
+.srm-img{
+    height: 570px;
+    width:100%;
+   
+}
+
+
+
+
+.srm-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100% ;
+    margin-right: 60px;
+    
+}
+.srm-foot{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.second{
+    
+    box-shadow:0px 1px 2px 2px rgb(196, 192, 192);
+}
+.srm-box{
+    
+    position:relative;
+    width:95%;
+    margin-left:15px;
+    margin-top: 20px;
+}
+.picture{
+    width:100%;
+    height: 90%;
+    
+   
+}
+.course{
+    
+    border-bottom: 1px solid rgba(97, 97, 97, 0.50);
+background: #FFF;
+
+    line-height: 1.5;
+}
+.para-1{
+    margin: 0;
+}
+.srm-review{
+    font-size: 10px;
+        
+
+}
+.ram{
+    font-size: 10px;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+
+
