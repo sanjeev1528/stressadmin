@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@700&display=swap');
+
+.top-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #56BBF1;
+ 
+ }
+ .edu-fair-div{
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px 35px 5px 35px ;
+    border-style: none;
+    border-radius: 20px;
+    color: #2192FF;
+    margin:10px;
+
+}
+
+.edu-fair-txt{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+.head1{
+    color:#2192FF;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700px;
+    font-size:30px;
+    text-align:center;
+    padding-top:5%;
+}
+.row-container {
+    padding-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.form-container {
+    max-width:800px;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.new-btn {
+    background:#2192FF;
+    border-style: none;
+    width: 50%;
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.box1 {
+    width: 100%;
+    border-style: none;
+    height: 45px;
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #00000040;
+    border-radius: 5px;
+}
+::placeholder{
+    padding-left:10px;
+}
