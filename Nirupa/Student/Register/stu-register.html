@@ -105,12 +105,22 @@
                     <label>Preferred Course:</label>
                 </div>
                 <div class="col-7 input-div">
-                    <select class="box1">
-                        <option disabled selected>Select</option>
-                        <option> Graduation/Diplomo</option>
-                        <option>Masters/Post-Graduation</option>
-                        <option>Doctorate/PhD</option>
-                    </select>
+                    <div class="dropdown">
+                        <div  class="box1 select-div" data-bs-toggle="dropdown">
+                            <p class="select-placeholder">Select</p>
+                            <svg width="14" height="7" viewBox="0 0 17 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 1L8.5 8.5L1 1" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </div>
+                        <ul class="dropdown-menu">
+                          <li><div class="dropdown-item option1"><input type="checkbox"><span class="span">B.TECH</span></div></li> 
+                          <li><div class="dropdown-item option1"><input type="checkbox"><span class="span">B.A</span></div></li> 
+                          <li><div class="dropdown-item option1"><input type="checkbox"><span class="span">B.E</span></div></li> 
+                          <li><div class="dropdown-item option1"><input type="checkbox"><span class="span">B.COM</span></div></li> 
+                          <li><div class="dropdown-item option1"><input type="checkbox"><span class="span">B.C.A</span></div></li> 
+                        </ul>
+                      </div>
                 </div>
             </div>
             <div class="row row-container">
