@@ -5,268 +5,346 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="manager.css"/>
+    <link rel="stylesheet" href="manager.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>
     <div class="contain">
-    <div class="head-content">
-        <div class="head1">
-            <p class="head2">Manage Counsellor Counseling</p>
-        </div>
-        <div class="search-div">
-            <div class="search-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M10.1441 1.84305C9.05418 1.84305 7.97491 2.05773 6.96795 2.47483C5.96098 2.89193 5.04602 3.50328 4.27532 4.27398C3.50462 5.04468 2.89326 5.95964 2.47616 6.96661C2.05906 7.97358 1.84438 9.05284 1.84438 10.1428C1.84438 11.2327 2.05906 12.312 2.47616 13.3189C2.89326 14.3259 3.50462 15.2409 4.27532 16.0116C5.04602 16.7823 5.96098 17.3936 6.96795 17.8107C7.97491 18.2278 9.05418 18.4425 10.1441 18.4425C12.3453 18.4425 14.4564 17.5681 16.0129 16.0116C17.5694 14.4551 18.4438 12.344 18.4438 10.1428C18.4438 7.94155 17.5694 5.83048 16.0129 4.27398C14.4564 2.71748 12.3453 1.84305 10.1441 1.84305ZM6.13348e-08 10.1428C0.000215143 8.51369 0.39278 6.90862 1.14449 5.46333C1.8962 4.01804 2.98494 2.77505 4.31861 1.83951C5.65228 0.903963 7.19166 0.303385 8.80652 0.0885755C10.4214 -0.126234 12.0642 0.0510427 13.5961 0.605411C15.128 1.15978 16.5038 2.07493 17.6072 3.27345C18.7105 4.47198 19.5091 5.91861 19.9351 7.491C20.3612 9.06338 20.4023 10.7153 20.055 12.3069C19.7077 13.8985 18.9821 15.3831 17.9397 16.635L23.7065 22.4018C23.7971 22.4862 23.8698 22.588 23.9202 22.7011C23.9706 22.8143 23.9977 22.9364 23.9999 23.0602C24.002 23.184 23.9793 23.307 23.9329 23.4218C23.8865 23.5367 23.8175 23.641 23.7299 23.7286C23.6423 23.8161 23.538 23.8852 23.4232 23.9315C23.3084 23.9779 23.1854 24.0007 23.0615 23.9985C22.9377 23.9963 22.8156 23.9692 22.7025 23.9188C22.5894 23.8684 22.4875 23.7958 22.4031 23.7052L16.6363 17.9384C15.155 19.1723 13.3526 19.9584 11.4405 20.2048C9.52836 20.4512 7.58561 20.1476 5.83983 19.3295C4.09404 18.5115 2.61753 17.2129 1.58326 15.5858C0.548987 13.9588 -0.000211907 12.0707 6.13348e-08 10.1428Z"
-                        fill="#4D4D4D" />
-                </svg>
+        <div class="head-content">
+            <div class="head1">
+                <p class="head2">Manage Counsellor Counseling</p>
             </div>
-            <input type="text" class="input-sort" placeholder="Name / Mobile Number" />
-            <div class="sort">
-                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M17.374 14.6444L18.5998 13.4185C18.7536 13.2647 18.9623 13.1783 19.1798 13.1783C19.3973 13.1783 19.6059 13.2647 19.7598 13.4185C19.9136 13.5724 20 13.781 20 13.9985C20 14.216 19.9136 14.4247 19.7598 14.5785L17.1235 17.2147C17.0092 17.3299 16.8632 17.4084 16.7041 17.4403C16.545 17.4722 16.3801 17.456 16.2302 17.3938C16.0804 17.3316 15.9524 17.2262 15.8627 17.091C15.7729 16.9558 15.7255 16.797 15.7263 16.6348V0.817239C15.7517 0.616686 15.8494 0.432293 16.0011 0.298635C16.1528 0.164977 16.348 0.0912342 16.5501 0.0912342C16.7523 0.0912342 16.9475 0.164977 17.0992 0.298635C17.2508 0.432293 17.3485 0.616686 17.374 0.817239V14.6444ZM0.726005 1.64766C0.525452 1.62224 0.341059 1.52454 0.207401 1.37287C0.0737428 1.2212 0 1.02599 0 0.82383C0 0.621672 0.0737428 0.426458 0.207401 0.27479C0.341059 0.123122 0.525452 0.0254188 0.726005 0H12.5892C12.7897 0.0254188 12.9741 0.123122 13.1078 0.27479C13.2414 0.426458 13.3152 0.621672 13.3152 0.82383C13.3152 1.02599 13.2414 1.2212 13.1078 1.37287C12.9741 1.52454 12.7897 1.62224 12.5892 1.64766H0.726005ZM0.726005 9.55642C0.525452 9.531 0.341059 9.4333 0.207401 9.28163C0.0737428 9.12997 0 8.93475 0 8.73259C0 8.53044 0.0737428 8.33522 0.207401 8.18355C0.341059 8.03189 0.525452 7.93418 0.726005 7.90876H12.5892C12.7897 7.93418 12.9741 8.03189 13.1078 8.18355C13.2414 8.33522 13.3152 8.53044 13.3152 8.73259C13.3152 8.93475 13.2414 9.12997 13.1078 9.28163C12.9741 9.4333 12.7897 9.531 12.5892 9.55642H0.726005ZM0.726005 17.4652C0.525452 17.4398 0.341059 17.3421 0.207401 17.1904C0.0737428 17.0387 0 16.8435 0 16.6414C0 16.4392 0.0737428 16.244 0.207401 16.0923C0.341059 15.9406 0.525452 15.8429 0.726005 15.8175H12.5892C12.7897 15.8429 12.9741 15.9406 13.1078 16.0923C13.2414 16.244 13.3152 16.4392 13.3152 16.6414C13.3152 16.8435 13.2414 17.0387 13.1078 17.1904C12.9741 17.3421 12.7897 17.4398 12.5892 17.4652H0.726005Z"
-                        fill="#2192FF" />
-                </svg>
+            <div class="search-div">
+                <div class="search-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10.1441 1.84305C9.05418 1.84305 7.97491 2.05773 6.96795 2.47483C5.96098 2.89193 5.04602 3.50328 4.27532 4.27398C3.50462 5.04468 2.89326 5.95964 2.47616 6.96661C2.05906 7.97358 1.84438 9.05284 1.84438 10.1428C1.84438 11.2327 2.05906 12.312 2.47616 13.3189C2.89326 14.3259 3.50462 15.2409 4.27532 16.0116C5.04602 16.7823 5.96098 17.3936 6.96795 17.8107C7.97491 18.2278 9.05418 18.4425 10.1441 18.4425C12.3453 18.4425 14.4564 17.5681 16.0129 16.0116C17.5694 14.4551 18.4438 12.344 18.4438 10.1428C18.4438 7.94155 17.5694 5.83048 16.0129 4.27398C14.4564 2.71748 12.3453 1.84305 10.1441 1.84305ZM6.13348e-08 10.1428C0.000215143 8.51369 0.39278 6.90862 1.14449 5.46333C1.8962 4.01804 2.98494 2.77505 4.31861 1.83951C5.65228 0.903963 7.19166 0.303385 8.80652 0.0885755C10.4214 -0.126234 12.0642 0.0510427 13.5961 0.605411C15.128 1.15978 16.5038 2.07493 17.6072 3.27345C18.7105 4.47198 19.5091 5.91861 19.9351 7.491C20.3612 9.06338 20.4023 10.7153 20.055 12.3069C19.7077 13.8985 18.9821 15.3831 17.9397 16.635L23.7065 22.4018C23.7971 22.4862 23.8698 22.588 23.9202 22.7011C23.9706 22.8143 23.9977 22.9364 23.9999 23.0602C24.002 23.184 23.9793 23.307 23.9329 23.4218C23.8865 23.5367 23.8175 23.641 23.7299 23.7286C23.6423 23.8161 23.538 23.8852 23.4232 23.9315C23.3084 23.9779 23.1854 24.0007 23.0615 23.9985C22.9377 23.9963 22.8156 23.9692 22.7025 23.9188C22.5894 23.8684 22.4875 23.7958 22.4031 23.7052L16.6363 17.9384C15.155 19.1723 13.3526 19.9584 11.4405 20.2048C9.52836 20.4512 7.58561 20.1476 5.83983 19.3295C4.09404 18.5115 2.61753 17.2129 1.58326 15.5858C0.548987 13.9588 -0.000211907 12.0707 6.13348e-08 10.1428Z"
+                            fill="#4D4D4D" />
+                    </svg>
+                </div>
+                <input type="text" class="input-sort" placeholder="Name / Mobile Number" />
+                <div class="sort">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.374 14.6444L18.5998 13.4185C18.7536 13.2647 18.9623 13.1783 19.1798 13.1783C19.3973 13.1783 19.6059 13.2647 19.7598 13.4185C19.9136 13.5724 20 13.781 20 13.9985C20 14.216 19.9136 14.4247 19.7598 14.5785L17.1235 17.2147C17.0092 17.3299 16.8632 17.4084 16.7041 17.4403C16.545 17.4722 16.3801 17.456 16.2302 17.3938C16.0804 17.3316 15.9524 17.2262 15.8627 17.091C15.7729 16.9558 15.7255 16.797 15.7263 16.6348V0.817239C15.7517 0.616686 15.8494 0.432293 16.0011 0.298635C16.1528 0.164977 16.348 0.0912342 16.5501 0.0912342C16.7523 0.0912342 16.9475 0.164977 17.0992 0.298635C17.2508 0.432293 17.3485 0.616686 17.374 0.817239V14.6444ZM0.726005 1.64766C0.525452 1.62224 0.341059 1.52454 0.207401 1.37287C0.0737428 1.2212 0 1.02599 0 0.82383C0 0.621672 0.0737428 0.426458 0.207401 0.27479C0.341059 0.123122 0.525452 0.0254188 0.726005 0H12.5892C12.7897 0.0254188 12.9741 0.123122 13.1078 0.27479C13.2414 0.426458 13.3152 0.621672 13.3152 0.82383C13.3152 1.02599 13.2414 1.2212 13.1078 1.37287C12.9741 1.52454 12.7897 1.62224 12.5892 1.64766H0.726005ZM0.726005 9.55642C0.525452 9.531 0.341059 9.4333 0.207401 9.28163C0.0737428 9.12997 0 8.93475 0 8.73259C0 8.53044 0.0737428 8.33522 0.207401 8.18355C0.341059 8.03189 0.525452 7.93418 0.726005 7.90876H12.5892C12.7897 7.93418 12.9741 8.03189 13.1078 8.18355C13.2414 8.33522 13.3152 8.53044 13.3152 8.73259C13.3152 8.93475 13.2414 9.12997 13.1078 9.28163C12.9741 9.4333 12.7897 9.531 12.5892 9.55642H0.726005ZM0.726005 17.4652C0.525452 17.4398 0.341059 17.3421 0.207401 17.1904C0.0737428 17.0387 0 16.8435 0 16.6414C0 16.4392 0.0737428 16.244 0.207401 16.0923C0.341059 15.9406 0.525452 15.8429 0.726005 15.8175H12.5892C12.7897 15.8429 12.9741 15.9406 13.1078 16.0923C13.2414 16.244 13.3152 16.4392 13.3152 16.6414C13.3152 16.8435 13.2414 17.0387 13.1078 17.1904C12.9741 17.3421 12.7897 17.4398 12.5892 17.4652H0.726005Z"
+                            fill="#2192FF" />
+                    </svg>
 
+                </div>
+                <select class="select-div">
+                    <option class="opt" selected disabled>Sort By</option>
+                    <option>Last Active Date</option>
+                    <option>A-Z</option>
+                    <option>Z-A</option>
+                </select>
             </div>
-            <select class="select-div">
-                <option class="opt" selected disabled>Sort By</option>
-                <option>Last Active Date</option>
-                <option>A-Z</option>
-                <option>Z-A</option>
-            </select>
+        </div>
+        <div class="main-content">
+
+            <table>
+
+                <thead>
+                    <th class="left-border">S.No</th>
+                    <th>Counsellor</th>
+                    <th>User name</th>
+                    <th>Date Of Call</th>
+                    <th>Comments</th>
+                    <th>No Of Attendees</th>
+                    <th>Video</th>
+                    <th>Status</th>
+                    <th class="right-border">Action</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Saravana</td>
+                        <td>Saravana</td>
+                        <td>03/04/2023</td>
+                        <td class="underline"><a data-bs-toggle="modal" data-bs-target="#hi">view</a></td>
+                        <td>2</td>
+                        <td>
+                            <div class="view-btn">
+                                <p class="view-txt underline">view</p>
+                                <button class="download">download</button>
+                            </div>
+                        </td>
+                        <td>Completed</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Gokul</td>
+                        <td>Gokul</td>
+                        <td>03/04/2023</td>
+                        <td>--</td>
+                        <td>3</td>
+                        <td class="underline">
+                            Watch Live
+                        </td>
+                        <td>On Live</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Aravind</td>
+                        <td>Aravind</td>
+                        <td>03/04/2023</td>
+                        <td class="underline">view</td>
+                        <td>1</td>
+                        <td>
+                            <div class="view-btn">
+                                <p class="view-txt underline">view</p>
+                                <button class="download">download</button>
+
+                            </div>
+                        </td>
+
+
+                        <td>Completed</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Saravana</td>
+                        <td>Saravana</td>
+                        <td>03/04/2023</td>
+                        <td class="underline">view</td>
+                        <td>2</td>
+                        <td>
+                            <div class="view-btn">
+                                <p class="view-txt underline">view</p>
+                                <button class="download">download</button>
+
+                            </div>
+                        </td>
+
+
+                        <td>Completed</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>5</td>
+                        <td>Gokul</td>
+                        <td>Gokul</td>
+                        <td>03/04/2023</td>
+                        <td class="underline">view</td>
+                        <td>2</td>
+                        <td>
+                            <div class="view-btn">
+                                <p class="view-txt underline">view</p>
+                                <button class="download">download</button>
+
+                            </div>
+                        </td>
+
+
+                        <td>Completed</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>6</td>
+                        <td>Saravana</td>
+                        <td>Saravana</td>
+                        <td>03/04/2023</td>
+                        <td class="underline">view</td>
+                        <td>3</td>
+                        <td>
+                            <div class="view-btn">
+                                <p class="view-text underline">view</p>
+                                <button class="download">download</button>
+
+                            </div>
+                        </td>
+
+
+                        <td>Completed</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>7</td>
+                        <td>Aravind</td>
+                        <td>Aravind</td>
+                        <td>03/04/2023</td>
+                        <td class="underline">view</td>
+                        <td>3</td>
+                        <td>
+                            <div class="view-btn">
+                                <p class="view-text underline">view</p>
+                                <button class="download">download</button>
+
+                            </div>
+                        </td>
+
+
+                        <td>Completed</td>
+                        <td><button class="box">Track</button></td>
+                    </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr>
+                        <td colspan="8" class="last">
+                            <div class="box-group">
+                                <button class="left-box"><svg class="svg-1" width="11" height="19" viewBox="0 0 13 21"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.58 0.460035C11.8557 0.746552 12.0063 1.13079 11.9988 1.52831C11.9913 1.92584 11.8263 2.30412 11.54 2.58003L3.66401 10L11.54 17.42C11.6887 17.5549 11.8088 17.7183 11.8932 17.9004C11.9776 18.0825 12.0246 18.2798 12.0314 18.4804C12.0382 18.681 12.0046 18.881 11.9327 19.0684C11.8608 19.2558 11.752 19.4269 11.6127 19.5715C11.4735 19.7161 11.3066 19.8313 11.122 19.9102C10.9375 19.9892 10.7389 20.0303 10.5382 20.031C10.3374 20.0318 10.1386 19.9923 9.95336 19.9149C9.76816 19.8374 9.6004 19.7235 9.46001 19.58L0.460015 11.08C0.314842 10.9401 0.199369 10.7724 0.120498 10.5868C0.0416265 10.4012 0.000976562 10.2017 0.000976562 10C0.000976562 9.7984 0.0416265 9.59884 0.120498 9.41328C0.199369 9.22772 0.314842 9.05996 0.460015 8.92003L9.46001 0.420035C9.74653 0.144374 10.1308 -0.00625661 10.5283 0.00124382C10.9258 0.00874426 11.3041 0.173762 11.58 0.460035Z"
+                                            fill="#1877F2" />
+                                    </svg>
+                                </button>
+                                <button class="center-box">1</button>
+                                <button class="right-box"><svg class="svg-1" width="11" height="19" viewBox="0 0 13 21"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M1.41998 20.54C1.14432 20.2534 0.993693 19.8692 1.00119 19.4717C1.00869 19.0742 1.17371 18.6959 1.45998 18.42L9.33598 11L1.45998 3.57997C1.31129 3.44509 1.19119 3.28175 1.10679 3.0996C1.02239 2.91746 0.975403 2.72023 0.968624 2.5196C0.961846 2.31897 0.995409 2.11901 1.06732 1.93159C1.13924 1.74417 1.24804 1.57308 1.38729 1.42848C1.52654 1.28388 1.69339 1.1687 1.87797 1.08977C2.06254 1.01083 2.26109 0.96975 2.46183 0.968957C2.66258 0.968163 2.86144 1.00767 3.04664 1.08514C3.23183 1.16261 3.3996 1.27647 3.53998 1.41997L12.54 9.91997C12.6852 10.0599 12.8006 10.2276 12.8795 10.4132C12.9584 10.5988 12.999 10.7983 12.999 11C12.999 11.2016 12.9584 11.4012 12.8795 11.5867C12.8006 11.7723 12.6852 11.94 12.54 12.08L3.53999 20.58C3.25347 20.8556 2.86923 21.0063 2.47171 20.9988C2.07418 20.9913 1.6959 20.8262 1.41998 20.54Z"
+                                            fill="#1877F2" />
+                                    </svg>
+
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+
+
+
+
+                </tbody>
+            </table>
         </div>
     </div>
-    <div class="main-content">
-
-        <table>
-
-            <thead>
-                <th class="left-border">S.No</th>
-                <th>Counsellor</th>
-                <th>User name</th>
-                <th>Date Of Call</th>
-                <th>Comments</th>
-                <th>No Of Attendees</th>
-                <th>Video</th>
-                <th>Status</th>
-                <th class="right-border">Action</th>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Saravana</td>
-                    <td>Saravana</td>
-                    <td>03/04/2023</td>
-                    <td class="underline"><a data-bs-toggle="modal" data-bs-target="#hi">view</a></td>
-                    <td>2</td>
-                    <td>
-                        <div class="view-btn">
-                            <p class="view-txt underline">view</p>
-                            <button class="download">download</button>
-                        </div>
-                    </td>
-                    <td>Completed</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-
-                <tr>
-                    <td>2</td>
-                    <td>Gokul</td>
-                    <td>Gokul</td>
-                    <td>03/04/2023</td>
-                    <td>--</td>
-                    <td>3</td>
-                    <td class="underline">
-                        Watch Live
-                    </td>
-                    <td>On Live</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-
-                <tr>
-                    <td>3</td>
-                    <td>Aravind</td>
-                    <td>Aravind</td>
-                    <td>03/04/2023</td>
-                    <td class="underline">view</td>
-                    <td>1</td>
-                    <td>
-                        <div class="view-btn">
-                            <p class="view-txt underline">view</p>
-                            <button class="download">download</button>
-
-                        </div>
-                    </td>
 
 
-                    <td>Completed</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-
-                <tr>
-                    <td>4</td>
-                    <td>Saravana</td>
-                    <td>Saravana</td>
-                    <td>03/04/2023</td>
-                    <td class="underline">view</td>
-                    <td>2</td>
-                    <td>
-                        <div class="view-btn">
-                            <p class="view-txt underline">view</p>
-                            <button class="download">download</button>
-
-                        </div>
-                    </td>
-
-
-                    <td>Completed</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-
-
-                <tr>
-                    <td>5</td>
-                    <td>Gokul</td>
-                    <td>Gokul</td>
-                    <td>03/04/2023</td>
-                    <td class="underline">view</td>
-                    <td>2</td>
-                    <td>
-                        <div class="view-btn">
-                            <p class="view-txt underline">view</p>
-                            <button class="download">download</button>
-
-                        </div>
-                    </td>
-
-
-                    <td>Completed</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-
-
-                <tr>
-                    <td>6</td>
-                    <td>Saravana</td>
-                    <td>Saravana</td>
-                    <td>03/04/2023</td>
-                    <td class="underline">view</td>
-                    <td>3</td>
-                    <td>
-                        <div class="view-btn">
-                            <p class="view-text underline">view</p>
-                            <button class="download">download</button>
-
-                        </div>
-                    </td>
-
-
-                    <td>Completed</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-
-
-                <tr>
-                    <td>7</td>
-                    <td>Aravind</td>
-                    <td>Aravind</td>
-                    <td>03/04/2023</td>
-                    <td class="underline">view</td>
-                    <td>3</td>
-                    <td>
-                        <div class="view-btn">
-                            <p class="view-text underline">view</p>
-                            <button class="download">download</button>
-
-                        </div>
-                    </td>
-
-
-                    <td>Completed</td>
-                    <td><button class="box">Track</button></td>
-                </tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr>
-                    <td colspan="8" class="last">
-                        <div class="box-group">
-                            <button class="left-box"><svg class="svg-1" width="11" height="19" viewBox="0 0 13 21"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M11.58 0.460035C11.8557 0.746552 12.0063 1.13079 11.9988 1.52831C11.9913 1.92584 11.8263 2.30412 11.54 2.58003L3.66401 10L11.54 17.42C11.6887 17.5549 11.8088 17.7183 11.8932 17.9004C11.9776 18.0825 12.0246 18.2798 12.0314 18.4804C12.0382 18.681 12.0046 18.881 11.9327 19.0684C11.8608 19.2558 11.752 19.4269 11.6127 19.5715C11.4735 19.7161 11.3066 19.8313 11.122 19.9102C10.9375 19.9892 10.7389 20.0303 10.5382 20.031C10.3374 20.0318 10.1386 19.9923 9.95336 19.9149C9.76816 19.8374 9.6004 19.7235 9.46001 19.58L0.460015 11.08C0.314842 10.9401 0.199369 10.7724 0.120498 10.5868C0.0416265 10.4012 0.000976562 10.2017 0.000976562 10C0.000976562 9.7984 0.0416265 9.59884 0.120498 9.41328C0.199369 9.22772 0.314842 9.05996 0.460015 8.92003L9.46001 0.420035C9.74653 0.144374 10.1308 -0.00625661 10.5283 0.00124382C10.9258 0.00874426 11.3041 0.173762 11.58 0.460035Z"
-                                        fill="#1877F2" />
-                                </svg>
-                            </button>
-                            <button class="center-box">1</button>
-                            <button class="right-box"><svg class="svg-1" width="11" height="19" viewBox="0 0 13 21"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M1.41998 20.54C1.14432 20.2534 0.993693 19.8692 1.00119 19.4717C1.00869 19.0742 1.17371 18.6959 1.45998 18.42L9.33598 11L1.45998 3.57997C1.31129 3.44509 1.19119 3.28175 1.10679 3.0996C1.02239 2.91746 0.975403 2.72023 0.968624 2.5196C0.961846 2.31897 0.995409 2.11901 1.06732 1.93159C1.13924 1.74417 1.24804 1.57308 1.38729 1.42848C1.52654 1.28388 1.69339 1.1687 1.87797 1.08977C2.06254 1.01083 2.26109 0.96975 2.46183 0.968957C2.66258 0.968163 2.86144 1.00767 3.04664 1.08514C3.23183 1.16261 3.3996 1.27647 3.53998 1.41997L12.54 9.91997C12.6852 10.0599 12.8006 10.2276 12.8795 10.4132C12.9584 10.5988 12.999 10.7983 12.999 11C12.999 11.2016 12.9584 11.4012 12.8795 11.5867C12.8006 11.7723 12.6852 11.94 12.54 12.08L3.53999 20.58C3.25347 20.8556 2.86923 21.0063 2.47171 20.9988C2.07418 20.9913 1.6959 20.8262 1.41998 20.54Z"
-                                        fill="#1877F2" />
-                                </svg>
-
-                            </button>
-                        </div>
-                    </td>
-                </tr>
-
-
-
-
-            </tbody>
-        </table>
-    </div>
-</div>
-    
-      
-      <!-- The Modal -->
-      <div class="modal fade" id="hi">
+    <!-- The Modal -->
+    <div class="modal fade" id="hi">
         <div class="modal-dialog">
-            
-          <div class="modal-content">
-      
-      
-            <!-- Modal body -->
-            <div class="modal-body">
-                <div class="user">
-                    <p>User Name :</p><p class="p2">Aravinddaya</p></div>
+
+            <div class="modal-content">
+
+
+                <!-- Modal body -->
+                <div class="modal-body">
+
                     <div class="user">
-                        <p>Mobile Number :</p><p class="p1">9879879874</p></div>
-                        <div class="user">
-                            <p>Email ID :</p><p class="p3">Aravinddaya@gmail.com</p></div>
-                            <div class="user">
-                                <p>Location:</p><p class="p4">Chennai</p></div>
-                                <div class="user">
-                                    <p>Occupation :</p><p class="p5">Counselor</p></div>
-                                    <div class="user">
-                                    <p>Hospital/ Clinic :</p><p class="p6">ABCD Hospital</p></div>
-                                    <div class="user">
-                                    <p>City :</p><p class="p7">Chennai</p></div>
-                                    
+                        <p>User Name :</p>
+                        <p class="p2">Aravinddaya</p>
+                    </div>
+                    <div class="user">
+                        <p>Mobile Number :</p>
+                        <p class="p1">9879879874</p>
+                    </div>
+                    <div class="user">
+                        <p>Email ID :</p>
+                        <p class="p3">Aravinddaya@gmail.com</p>
+                    </div>
+                    <div class="user">
+                        <p>Location:</p>
+                        <p class="p4">Chennai</p>
+                    </div>
+                    <div class="Language">
 
-                                    
-             
+                        <p>Language : </p>
+                        <div class="eng-tam-div">
+                            <p>English</p>
+                            <div class="speak"><svg class="radio" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 12.6C8.48521 12.6 9.90959 12.01 10.9598 10.9598C12.01 9.90959 12.6 8.48521 12.6 7C12.6 5.51479 12.01 4.09041 10.9598 3.0402C9.90959 1.99 8.48521 1.4 7 1.4C5.51479 1.4 4.09041 1.99 3.0402 3.0402C1.99 4.09041 1.4 5.51479 1.4 7C1.4 8.48521 1.99 9.90959 3.0402 10.9598C4.09041 12.01 5.51479 12.6 7 12.6ZM6.3021 9.8L3.332 6.8299L4.3218 5.8401L6.3021 7.8204L10.2613 3.8605L11.2518 4.8503L6.3021 9.8Z"
+                                        fill="#34A853" />
+                                </svg>
+                                <p class="s">speak</p>
+                                <svg class="radio" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 12.6C8.48521 12.6 9.90959 12.01 10.9598 10.9598C12.01 9.90959 12.6 8.48521 12.6 7C12.6 5.51479 12.01 4.09041 10.9598 3.0402C9.90959 1.99 8.48521 1.4 7 1.4C5.51479 1.4 4.09041 1.99 3.0402 3.0402C1.99 4.09041 1.4 5.51479 1.4 7C1.4 8.48521 1.99 9.90959 3.0402 10.9598C4.09041 12.01 5.51479 12.6 7 12.6ZM6.3021 9.8L3.332 6.8299L4.3218 5.8401L6.3021 7.8204L10.2613 3.8605L11.2518 4.8503L6.3021 9.8Z"
+                                        fill="#34A853" />
+                                </svg>
+                                <p class="s">read</p>
+                                <svg class="radio" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 12.6C8.48521 12.6 9.90959 12.01 10.9598 10.9598C12.01 9.90959 12.6 8.48521 12.6 7C12.6 5.51479 12.01 4.09041 10.9598 3.0402C9.90959 1.99 8.48521 1.4 7 1.4C5.51479 1.4 4.09041 1.99 3.0402 3.0402C1.99 4.09041 1.4 5.51479 1.4 7C1.4 8.48521 1.99 9.90959 3.0402 10.9598C4.09041 12.01 5.51479 12.6 7 12.6ZM6.3021 9.8L3.332 6.8299L4.3218 5.8401L6.3021 7.8204L10.2613 3.8605L11.2518 4.8503L6.3021 9.8Z"
+                                        fill="#34A853" />
+                                </svg>
+                                <p class="s">write</p>
+                            </div>
+                            <p>Tamil</p>
+                            <div class="speak"><svg class="radio" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 12.6C8.48521 12.6 9.90959 12.01 10.9598 10.9598C12.01 9.90959 12.6 8.48521 12.6 7C12.6 5.51479 12.01 4.09041 10.9598 3.0402C9.90959 1.99 8.48521 1.4 7 1.4C5.51479 1.4 4.09041 1.99 3.0402 3.0402C1.99 4.09041 1.4 5.51479 1.4 7C1.4 8.48521 1.99 9.90959 3.0402 10.9598C4.09041 12.01 5.51479 12.6 7 12.6ZM6.3021 9.8L3.332 6.8299L4.3218 5.8401L6.3021 7.8204L10.2613 3.8605L11.2518 4.8503L6.3021 9.8Z"
+                                        fill="#34A853" />
+                                </svg>
+                                <p class="s">speak</p>
+                                <svg class="radio" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 12.6C8.48521 12.6 9.90959 12.01 10.9598 10.9598C12.01 9.90959 12.6 8.48521 12.6 7C12.6 5.51479 12.01 4.09041 10.9598 3.0402C9.90959 1.99 8.48521 1.4 7 1.4C5.51479 1.4 4.09041 1.99 3.0402 3.0402C1.99 4.09041 1.4 5.51479 1.4 7C1.4 8.48521 1.99 9.90959 3.0402 10.9598C4.09041 12.01 5.51479 12.6 7 12.6ZM6.3021 9.8L3.332 6.8299L4.3218 5.8401L6.3021 7.8204L10.2613 3.8605L11.2518 4.8503L6.3021 9.8Z"
+                                        fill="#34A853" />
+                                </svg>
+                                <p class="s">read</p>
+                                <svg class="radio" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7 14C3.1339 14 0 10.8661 0 7C0 3.1339 3.1339 0 7 0C10.8661 0 14 3.1339 14 7C14 10.8661 10.8661 14 7 14ZM7 12.6C8.48521 12.6 9.90959 12.01 10.9598 10.9598C12.01 9.90959 12.6 8.48521 12.6 7C12.6 5.51479 12.01 4.09041 10.9598 3.0402C9.90959 1.99 8.48521 1.4 7 1.4C5.51479 1.4 4.09041 1.99 3.0402 3.0402C1.99 4.09041 1.4 5.51479 1.4 7C1.4 8.48521 1.99 9.90959 3.0402 10.9598C4.09041 12.01 5.51479 12.6 7 12.6ZM7 6.0102L8.9796 4.0299L9.9701 5.0204L7.9898 7L9.9701 8.9796L8.9796 9.9701L7 7.9898L5.0204 9.9701L4.0299 8.9796L6.0102 7L4.0299 5.0204L5.0204 4.0299L7 6.0102Z"
+                                        fill="#FF0000" />
+                                </svg>
+
+                                <p class="s">write</p>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="user">
+                        <p>Occupation :</p>
+                        <p class="p5">Counselor</p>
+                    </div>
+                    <div class="user">
+                        <p>Hospital/ Clinic :</p>
+                        <p class="p6">ABCD Hospital</p>
+                    </div>
+                    <div class="user">
+                        <p>City :</p>
+                        <p class="p7">Chennai</p>
+                    </div>
+                    <p>ID Proof : <svg  class="id" width="245" height="153" viewBox="0 0 245 153" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="245" height="153" fill="url(#pattern0)" />
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_1_1227"
+                                        transform="matrix(0.00408163 0 0 0.00653595 -0.0816326 -0.104575)" />
+                                </pattern>
+                                <image id="image0_1_1227" width="277" height="182"
+                                    xlink:href="data:image/jpeg;base64,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" />
+                            </defs>
+                        </svg>
+                    </p>
+                </div>
+                <button class="close" data-bs-dismiss="modal">Back</button>
             </div>
-            
-      
-            
-              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-          
-      
-          </div>
         </div>
-      </div>
-      
-
+    </div>
 </body>
 
 </html>
